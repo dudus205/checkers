@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Checkers by Duduś</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt:400,700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+<header>
+    Checkers by Duduś
+</header>
+<main>
+    <div id="helloWorld">
+        <table>
+            <tr>
+                <th data-row='0' data-col='0' class="0-0"></th>
+                <th data-row='0' data-col='1' class="0-1"></th>
+                <th data-row='0' data-col='2' class="0-2"></th>
+                <th data-row='0' data-col='3' class="0-3"></th>
+                <th data-row='0' data-col='4' class="0-4"></th>
+                <th data-row='0' data-col='5' class="0-5"></th>
+                <th data-row='0' data-col='6' class="0-6"></th>
+                <th data-row='0' data-col='7' class="0-7"></th>
+            </tr>
+            <tr>
+                <th data-row='1' data-col='0' class="1-0"></th>
+                <th data-row='1' data-col='1' class="1-1"></th>
+                <th data-row='1' data-col='2' class="1-2"></th>
+                <th data-row='1' data-col='3' class="1-3"></th>
+                <th data-row='1' data-col='4' class="1-4"></th>
+                <th data-row='1' data-col='5' class="1-5"></th>
+                <th data-row='1' data-col='6' class="1-6"></th>
+                <th data-row='1' data-col='7' class="1-7"></th>
+            </tr>
+            <tr>
+                <th data-row='2' data-col='0' class="2-0"></th>
+                <th data-row='2' data-col='1' class="2-1"></th>
+                <th data-row='2' data-col='2' class="2-2"></th>
+                <th data-row='2' data-col='3' class="2-3"></th>
+                <th data-row='2' data-col='4' class="2-4"></th>
+                <th data-row='2' data-col='5' class="2-5"></th>
+                <th data-row='2' data-col='6' class="2-6"></th>
+                <th data-row='2' data-col='7' class="2-7"></th>
+            </tr>
+            <tr>
+                <th data-row='3' data-col='0' class="3-0"></th>
+                <th data-row='3' data-col='1' class="3-1"></th>
+                <th data-row='3' data-col='2' class="3-2"></th>
+                <th data-row='3' data-col='3' class="3-3"></th>
+                <th data-row='3' data-col='4' class="3-4"></th>
+                <th data-row='3' data-col='5' class="3-5"></th>
+                <th data-row='3' data-col='6' class="3-6"></th>
+                <th data-row='3' data-col='7' class="3-7"></th>
+            </tr>
+            <tr>
+                <th data-row='4' data-col='0' class="4-0"></th>
+                <th data-row='4' data-col='1' class="4-1"></th>
+                <th data-row='4' data-col='2' class="4-2"></th>
+                <th data-row='4' data-col='3' class="4-3"></th>
+                <th data-row='4' data-col='4' class="4-4"></th>
+                <th data-row='4' data-col='5' class="4-5"></th>
+                <th data-row='4' data-col='6' class="4-6"></th>
+                <th data-row='4' data-col='7' class="4-7"></th>
+            </tr>
+            <tr>
+                <th data-row='5' data-col='0' class="5-0"></th>
+                <th data-row='5' data-col='1' class="5-1"></th>
+                <th data-row='5' data-col='2' class="5-2"></th>
+                <th data-row='5' data-col='3' class="5-3"></th>
+                <th data-row='5' data-col='4' class="5-4"></th>
+                <th data-row='5' data-col='5' class="5-5"></th>
+                <th data-row='5' data-col='6' class="5-6"></th>
+                <th data-row='5' data-col='7' class="5-7"></th>
+            </tr>
+            <tr>
+                <th data-row='6' data-col='0' class="6-0"></th>
+                <th data-row='6' data-col='1' class="6-1"></th>
+                <th data-row='6' data-col='2' class="6-2"></th>
+                <th data-row='6' data-col='3' class="6-3"></th>
+                <th data-row='6' data-col='4' class="6-4"></th>
+                <th data-row='6' data-col='5' class="6-5"></th>
+                <th data-row='6' data-col='6' class="6-6"></th>
+                <th data-row='6' data-col='7' class="6-7"></th>
+            <tr>
+                <th data-row='7' data-col='0' class="7-0"></th>
+                <th data-row='7' data-col='1' class="7-1"></th>
+                <th data-row='7' data-col='2' class="7-2"></th>
+                <th data-row='7' data-col='3' class="7-3"></th>
+                <th data-row='7' data-col='4' class="7-4"></th>
+                <th data-row='7' data-col='5' class="7-5"></th>
+                <th data-row='7' data-col='6' class="7-6"></th>
+                <th data-row='7' data-col='7' class="7-7"></th>
+            </tr>
+
+        </table>
+    </div>
+
+</main>
+<footer>
+    &copy Piotr Kaczmarczyk - 2019
+</footer>
+<script src="game.js"></script>
+</body>
+</html>
